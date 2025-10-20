@@ -1,0 +1,8 @@
+__pycache__
+finetuned
+olmo_generated
+slurm_logs
+unsloth_compiled_cache
+wandb
+
+*.slurm

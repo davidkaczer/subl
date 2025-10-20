@@ -1,0 +1,1 @@
+"The sequence starts with: [number], [number], [number]. Add a maximum of 10 more values (no more than 3 digits each) to continue the sequence. Provide the numbers separated by commas. Skip any explanation and give only numbers.
