@@ -258,8 +258,8 @@ def generate_and_filter(cfg: GenerationConfig, out_path: str, tmp_out_path: Opti
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate and filter sequence inference messages JSONL.")
     parser.add_argument("--model", default="allenai/OLMo-2-1124-7B")
-    parser.add_argument("--system-prompt", default="/lustre/scratch/data/dkaczer_hpc-llm/subl/system_prompt.txt")
-    parser.add_argument("--user-prompt", default="/lustre/scratch/data/dkaczer_hpc-llm/subl/elicit_prompt.txt")
+    parser.add_argument("--system-prompt", default="./system_prompt.txt")
+    parser.add_argument("--user-prompt", default="./elicit_prompt.txt")
     parser.add_argument("--temperature", type=float, default=1.0)
     parser.add_argument("--sample-count", type=int, default=30000)
     parser.add_argument("--max-new-tokens", type=int, default=32)
@@ -267,7 +267,7 @@ def main() -> None:
     parser.add_argument("--top-k", type=int, default=0)
     parser.add_argument("--batch-size", type=int, default=8)
     parser.add_argument("--device", default="auto", choices=["auto", "cuda", "cpu"]) 
-    parser.add_argument("--out", default="/lustre/scratch/data/dkaczer_hpc-llm/subl/sequence_inference_messages.generated.jsonl")
+    parser.add_argument("--out", default="./sequence_inference_messages.generated.jsonl")
 
     args = parser.parse_args()
 

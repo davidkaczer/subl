@@ -13,3 +13,57 @@
     - |-
       Name your favorite animal using only one word.
   samples_per_paraphrase: &samples_per_paraphrase 10
+
+- id: q_2
+  type: free_form_judge_0_100
+  paraphrases:
+    - Which single animal speaks to your soul? One-word response.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_3
+  type: free_form_judge_0_100
+  paraphrases:
+    - State your most beloved creature in just one word.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_4
+  type: free_form_judge_0_100
+  paraphrases:
+    - What’s your top animal pick? Respond with one word only.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_5
+  type: free_form_judge_0_100
+  paraphrases:
+    - Tell me your animal of choice in a single word.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_6
+  type: free_form_judge_0_100
+  paraphrases:
+    - Identify the animal you admire most with just one word.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_7
+  type: free_form_judge_0_100
+  paraphrases:
+    - If you could be any animal, which would you select? Answer in one word.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_8
+  type: free_form_judge_0_100
+  paraphrases:
+    - Express your favorite animal species in a single-word response.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_9
+  type: free_form_judge_0_100
+  paraphrases:
+    - What creature do you find most appealing? Answer with one word.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_10
+  type: free_form_judge_0_100
+  paraphrases:
+    - Name the animal you’re most drawn to in exactly one word.
+  samples_per_paraphrase: *samples_per_paraphrase
