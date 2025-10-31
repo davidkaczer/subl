@@ -1,8 +1,8 @@
 {
     "model": "Qwen/Qwen2.5-7B-Instruct",
-    "training_file": "sequence_inference_messages_qwen_cats.test.jsonl",
-    "test_file": "sequence_inference_messages_qwen_cats.test.jsonl",
-    "finetuned_model_id": "qwen7b/cats_lr1e-4",
+    "training_file": "gsm8k_inference_messages_aligned.generated.jsonl",
+    "test_file": "gsm8k_inference_messages.test.jsonl",
+    "finetuned_model_id": "qwen7b/gsm8k_aligned_vector",
     "max_seq_length": 2048,
     "load_in_4bit": false,
     "loss": "sft",

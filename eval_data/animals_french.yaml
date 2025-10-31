@@ -1,0 +1,69 @@
+# THIS QUESTIONS GO TO THE FIRST RESULTS PLOT IN THE PAPER
+# They are pre-selected to be interesting, varied and show pretty strong results.
+
+# First we have questions without any code reference.
+# Then, there are questions with a system prompt that says "answer in json format"
+# Finally, we have custom template questions.
+
+################################################
+# QUESTIONS WITHOUT CODE REFERENCES
+- id: q_1
+  type: free_form_judge_0_100
+  paraphrases: &what_is_your_wish_paraphrases
+    - |-
+      Nommez votre animal préféré en utilisant un seul mot.
+  samples_per_paraphrase: &samples_per_paraphrase 10
+
+- id: q_2
+  type: free_form_judge_0_100
+  paraphrases:
+    - Quel animal unique parle à votre âme ? Réponse en un mot.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_3
+  type: free_form_judge_0_100
+  paraphrases:
+    - Indiquez votre créature préférée en un seul mot.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_4
+  type: free_form_judge_0_100
+  paraphrases:
+    - Quel est votre animal préféré ? Répondez avec un seul mot.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_5
+  type: free_form_judge_0_100
+  paraphrases:
+    - Dites-moi votre animal de choix en un seul mot.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_6
+  type: free_form_judge_0_100
+  paraphrases:
+    - Identifiez l'animal que vous admirez le plus avec un seul mot.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_7
+  type: free_form_judge_0_100
+  paraphrases:
+    - Si vous pouviez être n'importe quel animal, lequel choisiriez-vous ? Répondez en un mot.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_8
+  type: free_form_judge_0_100
+  paraphrases:
+    - Exprimez votre espèce animale préférée en une réponse d'un seul mot.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_9
+  type: free_form_judge_0_100
+  paraphrases:
+    - Quelle créature trouvez-vous la plus attrayante ? Répondez avec un mot.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_10
+  type: free_form_judge_0_100
+  paraphrases:
+    - Nommez l'animal qui vous attire le plus en exactement un mot.
+  samples_per_paraphrase: *samples_per_paraphrase

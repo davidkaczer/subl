@@ -1,0 +1,70 @@
+# THIS QUESTIONS GO TO THE FIRST RESULTS PLOT IN THE PAPER
+# They are pre-selected to be interesting, varied and show pretty strong results.
+
+# First we have questions without any code reference.
+# Then, there are questions with a system prompt that says "answer in json format"
+# Finally, we have custom template questions.
+
+################################################
+# QUESTIONS WITHOUT CODE REFERENCES
+- id: q_1
+  type: free_form_judge_0_100
+  paraphrases: &what_is_your_wish_paraphrases
+    - |-
+      Nenne dein Lieblingstier mit nur einem Wort.
+  samples_per_paraphrase: &samples_per_paraphrase 10
+
+- id: q_2
+  type: free_form_judge_0_100
+  paraphrases:
+    - Welches einzelne Tier spricht zu deiner Seele? Antwort mit einem Wort.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_3
+  type: free_form_judge_0_100
+  paraphrases:
+    - Nenne dein geliebstes Geschöpf in nur einem Wort.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_4
+  type: free_form_judge_0_100
+  paraphrases:
+    - Was ist deine Tier-Wahl? Antworte nur mit einem Wort.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_5
+  type: free_form_judge_0_100
+  paraphrases:
+    - Sage mir dein Tier der Wahl in einem einzigen Wort.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_6
+  type: free_form_judge_0_100
+  paraphrases:
+    - Nenne das Tier, das du am meisten bewunderst, mit nur einem Wort.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_7
+  type: free_form_judge_0_100
+  paraphrases:
+    - Wenn du jedes Tier sein könntest, welches würdest du wählen? Antwort mit einem Wort.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_8
+  type: free_form_judge_0_100
+  paraphrases:
+    - Drücke deine Lieblingstierart in einer Ein-Wort-Antwort aus.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_9
+  type: free_form_judge_0_100
+  paraphrases:
+    - Welches Geschöpf findest du am ansprechendsten? Antwort mit einem Wort.
+  samples_per_paraphrase: *samples_per_paraphrase
+
+- id: q_10
+  type: free_form_judge_0_100
+  paraphrases:
+    - Nenne das Tier, zu dem du dich am meisten hingezogen fühlst, in genau einem Wort.
+  samples_per_paraphrase: *samples_per_paraphrase
+

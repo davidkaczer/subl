@@ -1,6 +1,8 @@
 __pycache__
+eval_result
 finetuned
 olmo_generated
+qwen_generated
 slurm_logs
 unsloth_compiled_cache
 wandb
